@@ -1,0 +1,23 @@
+using UnityEngine;
+using System.Collections;
+
+public class Greetings : MonoBehaviour {
+	public string myName;
+	// Use this for initialization
+	void Start () {
+		SayHello (myName);
+		SayGoodbye ();
+	}
+	public void SayHello (string name)
+	{
+		print ("Hello " + myName);
+	}
+	public void SayGoodbye ()
+	{
+		print ("Goodbye " + myName);
+	}
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
