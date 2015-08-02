@@ -8,12 +8,12 @@ public class Greetings : MonoBehaviour {
 		SayHello (myName);
 		SayGoodbye ();
 	}
-	public void SayHello (string name)
-	{
-		print ("Hello " + myName);
-	}
-	public void SayGoodbye ()
-	{
+	public void SayHello (string name)		//The big point of this assignment is that the variable 'myName' is
+	{						//supplied by the user and the function 'Main' takes it and uses
+		print ("Hello " + myName);		//it to fill in the variable 'name' when it calls 'SayHello'.
+	}						//You had it all right and then used 'Hello + myName' which shortcutted
+	public void SayGoodbye ()			//passing myName to name. It should be 'print ("Hello " + name);'
+	{						//Also, you didn't need to include the variable in 'SayGoodbye'.
 		print ("Goodbye " + myName);
 	}
 	// Update is called once per frame
