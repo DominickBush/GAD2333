@@ -36,5 +36,6 @@ public class MoveIt : MonoBehaviour {
 			position.y -= speed * Time.deltaTime;
 			this.transform.position = position;
 		}
+		//What about the z-axis?
 		}
 	}
