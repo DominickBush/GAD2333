@@ -11,7 +11,7 @@ public class hw1 : MonoBehaviour {
 		Vector3 position = myCapsule01Transform.position;
 
 		print ("My capsule is at " + position);
-		print ("The x-coordinate is at" + position.x);
+		print ("The x-coordinate is at " + position.x);
 
 	}
 	
